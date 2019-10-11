@@ -2,6 +2,10 @@ class PostsController < ApplicationController
   helper_method :params
 
   def index
+
+
+
+    @authors = Author.all 
     @posts = Post.all
   end
 
