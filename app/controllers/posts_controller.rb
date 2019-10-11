@@ -5,7 +5,7 @@ class PostsController < ApplicationController
 
 
 
-    @authors = Author.all 
+    @authors = Author.all
     @posts = Post.all
   end
 
